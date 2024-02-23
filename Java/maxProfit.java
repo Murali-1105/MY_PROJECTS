@@ -1,4 +1,6 @@
-public class maxProfit {
+import java.util.*;
+
+public class MaxProfit {
     public static int maxProfit(int[] prices) {
         if (prices == null || prices.length == 0) {
             return 0;
@@ -20,3 +22,4 @@ public class maxProfit {
         System.out.println(maxProfit(prices)); 
     }
 }
+
