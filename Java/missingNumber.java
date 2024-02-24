@@ -1,5 +1,5 @@
 public class missingNumber{
-    public int missingNumber(int[] nums) {
+    public static int Number(int[] nums) {
         int n = nums.length;
         int expectedSum = n * (n + 1) / 2;
         int actualSum = 0; 
@@ -16,8 +16,8 @@ public class missingNumber{
         int[] nums2 = {0, 1};
         int[] nums3 = {9, 6, 4, 2, 3, 5, 7, 0, 1};
 
-        System.out.println("Output for nums1: " + solution.missingNumber(nums1));
-        System.out.println("Output for nums2: " + solution.missingNumber(nums2)); 
-        System.out.println("Output for nums3: " + solution.missingNumber(nums3)); 
+        System.out.println("nums1: " + missingNumber.Number(nums1));
+        System.out.println("nums2: " + missingNumber.Number(nums2)); 
+        System.out.println("nums3: " + missingNumber.Number(nums3)); 
     }
 }
