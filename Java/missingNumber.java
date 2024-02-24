@@ -11,7 +11,6 @@ public class missingNumber{
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
         
         int[] nums1 = {3, 0, 1};
         int[] nums2 = {0, 1};
